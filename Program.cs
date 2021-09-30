@@ -4,65 +4,57 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace ConsoleApp4
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.Write("Speak, friend and Enter: ");
-            string password = Console.ReadLine();
+        double result = 0;
+        double a, b;
+        string oper;
+        bool success = true;
+            Console.WriteLine("Enter +, -, *,/");
+            oper = (Console.ReadLine ());
+            Console.WriteLine("Enter a number");
+            a = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Enter a number");
+            b = Convert.ToDouble(Console.ReadLine());
 
-            if (password != "lol")
+            switch (oper)
             {
-                Console.WriteLine("Wrong password");
-                Console.WriteLine("Press any key...");
-                Console.ReadKey();
-
-                return;
+                case "+":
+                    result = a + b;
+                    break;
+                case "-":
+                    result = a - b;
+                    break;
+                case "*":
+                    result = a * b;
+                    break;
+                case "/":
+                    if (b == 0) {
+                        success = false;
+                        Console.WriteLine("No options");
+                    }
+                    result = a / b;
+                    break;
             }
-            Console.WriteLine("You may now enter.");
-            Console.WriteLine("Please input a number ");
-            string input = Console.ReadLine();
-            int result;
-
-
-            bool success = int.TryParse(input, out result);
-            while (!success)
+            if (success == true)
             {
-                Console.WriteLine("\"{0}\" is not a number:", input);
-                Console.WriteLine("Please type a number: ");
-                input = Console.ReadLine();
-                success = int.TryParse(input, out result);
+                Console.WriteLine("result:{0}{1}{2}={3}", a, oper, b, result);
             }
-
-            Console.WriteLine("You typed:{0}", result);
-
-
-            bool success2;
-            int result2;
-
-            do
-            {
-                Console.WriteLine("Please type a positive number");
-                string input2 = Console.ReadLine();
-                success2 = int.TryParse(input2, out result2);
-            } while (!(success2 && result2 > 0));
-
-            Console.WriteLine("You typed: {0}", result2);
+            else
+                Console.WriteLine("Try again");
 
 
-            int sum = 0;
-            for (int i = 1; i <=10; i +=1) {
-                sum += 1;
+             Console.WriteLine("Press any key");
+             Console.ReadKey();
 
-                Console.WriteLine("i={0}, sum={1}", i, sum);
-            }
+           
 
-            Console.WriteLine("Sum is: {0}", sum);
 
-            Console.WriteLine("Press any key...");
-            Console.ReadKey();
+
         }
     }
 }
