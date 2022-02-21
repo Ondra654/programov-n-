@@ -1,0 +1,7 @@
+C:\Users\Ondra\source\repos\Lecture19Composition\bin\Debug\Lecture19Composition.exe.config
+C:\Users\Ondra\source\repos\Lecture19Composition\bin\Debug\Lecture19Composition.exe
+C:\Users\Ondra\source\repos\Lecture19Composition\bin\Debug\Lecture19Composition.pdb
+C:\Users\Ondra\source\repos\Lecture19Composition\obj\Debug\Lecture19Composition.csproj.AssemblyReference.cache
+C:\Users\Ondra\source\repos\Lecture19Composition\obj\Debug\Lecture19Composition.csproj.CoreCompileInputs.cache
+C:\Users\Ondra\source\repos\Lecture19Composition\obj\Debug\Lecture19Composition.exe
+C:\Users\Ondra\source\repos\Lecture19Composition\obj\Debug\Lecture19Composition.pdb
