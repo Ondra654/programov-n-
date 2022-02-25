@@ -24,5 +24,6 @@ namespace Lecture19Composition
 
 			return choices[this.random.Next(choices.Length)];
 		}
-	}
+	} 
+
 }

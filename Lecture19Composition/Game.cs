@@ -12,7 +12,6 @@ namespace Lecture19Composition
 
 		private Die die;
 
-
 		public Game(Character characterOne, Character characterTwo, Die die)
 		{
 			this.characterOne = characterOne;
@@ -23,7 +22,6 @@ namespace Lecture19Composition
 
 		public void Run(TextWriter output)
 		{
-
 			Console.WriteLine("Let the games begin!");
 
 			characterOne.Reset();
@@ -36,7 +34,8 @@ namespace Lecture19Composition
 			PrintStatus(output, characterTwo);
 			Console.WriteLine();
 
-			while (characterOne.Alive && characterTwo.Alive) {
+			while (characterOne.Alive && characterTwo.Alive)
+			{
 				Console.WriteLine("{0}'s turn:", active.Name);
 				active.TakeTurn(output, nonActive, die);
 				Console.WriteLine();
@@ -61,8 +60,7 @@ namespace Lecture19Composition
 			}
 		}
 
-
-		private void PrintStatus(TextWriter output, Character character)
+		 void PrintStatus(TextWriter output, Character character)
 		{
 			output.WriteLine(
 				"{0}: {1}, {2} / {3} HP",
