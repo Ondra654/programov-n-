@@ -1,0 +1,14 @@
+C:\Users\Ondra\source\repos\2022_semestralka\2022_semestralka\bin\Debug\netcoreapp3.1\2022_semestralka.exe
+C:\Users\Ondra\source\repos\2022_semestralka\2022_semestralka\bin\Debug\netcoreapp3.1\2022_semestralka.deps.json
+C:\Users\Ondra\source\repos\2022_semestralka\2022_semestralka\bin\Debug\netcoreapp3.1\2022_semestralka.runtimeconfig.json
+C:\Users\Ondra\source\repos\2022_semestralka\2022_semestralka\bin\Debug\netcoreapp3.1\2022_semestralka.runtimeconfig.dev.json
+C:\Users\Ondra\source\repos\2022_semestralka\2022_semestralka\bin\Debug\netcoreapp3.1\2022_semestralka.dll
+C:\Users\Ondra\source\repos\2022_semestralka\2022_semestralka\bin\Debug\netcoreapp3.1\2022_semestralka.pdb
+C:\Users\Ondra\source\repos\2022_semestralka\2022_semestralka\obj\Debug\netcoreapp3.1\2022_semestralka.csproj.AssemblyReference.cache
+C:\Users\Ondra\source\repos\2022_semestralka\2022_semestralka\obj\Debug\netcoreapp3.1\2022_semestralka.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ondra\source\repos\2022_semestralka\2022_semestralka\obj\Debug\netcoreapp3.1\2022_semestralka.AssemblyInfoInputs.cache
+C:\Users\Ondra\source\repos\2022_semestralka\2022_semestralka\obj\Debug\netcoreapp3.1\2022_semestralka.AssemblyInfo.cs
+C:\Users\Ondra\source\repos\2022_semestralka\2022_semestralka\obj\Debug\netcoreapp3.1\2022_semestralka.csproj.CoreCompileInputs.cache
+C:\Users\Ondra\source\repos\2022_semestralka\2022_semestralka\obj\Debug\netcoreapp3.1\2022_semestralka.dll
+C:\Users\Ondra\source\repos\2022_semestralka\2022_semestralka\obj\Debug\netcoreapp3.1\2022_semestralka.pdb
+C:\Users\Ondra\source\repos\2022_semestralka\2022_semestralka\obj\Debug\netcoreapp3.1\2022_semestralka.genruntimeconfig.cache
